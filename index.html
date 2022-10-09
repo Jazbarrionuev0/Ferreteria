@@ -6,18 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>El Dany</title>
 </head>
 
 <body>
-
-  <section>
+  <header>
+    <div class="div-portada"><img src="/portada .jpg " class="img-portada" alt=""></div>
+  </header>
+<section>
 
     <div class="row">
-
-      <!-- NAVBAR -->
       <div class="col-sm-12 columna">
         <div role="navigation">
           <nav class="navbar navbar-expand-lg navbar-light ">
@@ -34,7 +35,29 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+                      Pinturas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Alba</a></li>
+                      <li><a class="dropdown-item" href="#">Colorin</a></li>
+                      <li><a class="dropdown-item" href="#">Shrwin Williams</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Herramientas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Stanley</a></li>
+                      <li><a class="dropdown-item" href="#">Bosch</a></li>
+                      <li><a class="dropdown-item" href="#">Skill</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Maquinas
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -45,7 +68,7 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+                      Utileria
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -56,7 +79,7 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+                      Construcción
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -67,7 +90,7 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+                      Manualidades
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -78,29 +101,7 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+                      Mechas
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -114,8 +115,7 @@
           </nav>
         </div>
       </div>
-
-      <!-- CAROUSEL -->
+<!-- 
       <div class="col-sm-12 columna">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -167,12 +167,43 @@
           </button>
         </div>
       </div>
-    </div>
-  </section>
+    </div>-->
+  </section> 
 
   <!-- PRODUCTOS -->
   <section class="productos">
-    <div><p class="titulo-cuadrados">Productos</p></div>
+    <div>
+      <p class="titulo-cuadrados">Productos</p>
+    </div>
+    <!-- producto principal -->
+    <div class="row div-productos-principal">
+      <div class="col-md-9 primary-block producto-grande">
+        <a href="#">
+          <p class="texto-cuadrados">Grande</p>
+        </a>
+        <a href="#"><img src="https://fondosmil.com/fondo/29366.jpg" alt="" class="img-fluid img-cuadrados"></a>
+      </div>
+
+      <div class="col-md-3 PaddingLeft secondary-block producto-doble">
+        <div class="div-individual-productos-dobles">
+          <a href="#">
+            <p class="texto-cuadrados">Doble1</p>
+          </a>
+          <a href="#"><img src="https://wallpaperaccess.com/full/327423.jpg" alt="" class="img-fluid img-cuadrados"></a>
+        </div>
+
+        <div class="div-individual-productos-dobles">
+          <a href="#">
+            <p class="texto-cuadrados ">Doble2</p>
+          </a>
+          <a href="#"><img src="https://wallpaperaccess.com/full/327423.jpg" alt="" class="img-fluid img-cuadrados"></a>
+        </div>
+      </div>
+    </div>
+    <!-- cuadro de productos normales -->
+    <div>
+      <p class="titulo-cuadrados">Productos</p>
+    </div>
     <div class="divproductos">
       <div class="div-individual-productos">
         <a href="#">
