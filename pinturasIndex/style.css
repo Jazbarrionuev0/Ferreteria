@@ -1,0 +1,124 @@
+*{
+    font-family: "Mulish";
+}
+
+a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #1a1a1a !important;
+}
+
+.div-portada{
+    display: flex;
+}
+.img-portada {
+    width: 90%;
+}
+
+body{
+    background-color: rgb(255, 255, 239) !important;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px !important;
+}
+
+.div_lista_principal{
+    height: 100vh !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.div_item_lista{
+    border-top: 1px solid grey !important;   
+    display: flex !important;
+}
+
+.img_lista{
+    display: inline !important;
+    width: 150px !important;
+    margin: 10px !important;
+}
+
+.div_p{
+    padding: 10px;
+}
+
+.nombreDelProducto{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(247 247 247);
+    box-shadow: 1px 0px 4px 0px #bfbfbf;
+    border: 1px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 254, 240);
+}
+
+.stock{
+    padding-top: 20px;
+    color: green;
+}
+
+.sinStock{
+    padding-top: 20px;
+    color: red;
+}
+
+select{
+    margin-top: 20px !important;
+}
+
+
+/* Modales */
+
+.flex_div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal_{
+    width: 80%;
+    height: 580px;
+    position: absolute !important;
+    border-radius: 2px;
+    padding: 15px;
+    background-color: rgba(247, 247, 247, 0.993);
+
+    display: none;
+}
+
+.p_modal{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    border-radius: 3px;
+    padding: 16px;
+}
+
+.p_modalF{
+    border-bottom: 0px;
+}
+
+.modalVisible{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colores_modal{
+    border: 0px solid gainsboro;
+    width: 130px;
+    padding-top: 15px;    
+}
+
+.cerrar{
+    display: flex;
+    justify-content: end;
+}
