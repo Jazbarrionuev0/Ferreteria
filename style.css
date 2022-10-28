@@ -1,15 +1,17 @@
 * {
-    margin-right: -5px;
+    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
     padding: 0px;
+    font-family: "Mulish" !important;
 }
 
 /* --------------------------------------------------------------------------------------- */
 .div-portada{
     display: flex;
-    justify-content: center;
 }
 .img-portada {
-    width: 50%;
+    width: 90%;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -60,7 +62,7 @@ li {
 .div-individual-productos {
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    margin: 25px !important;
     width: 25%;
 }
 .img-portada:hover {
@@ -93,6 +95,43 @@ a {
 }
 
 /* MEDIA-------------------------------------------------------- */
+
+@media screen and (max-width: 1000px){
+    .texto-cuadrados{
+        font-size: 40px !important;
+    }
+
+    .titulo-cuadrados{
+        font-size: 40px !important;
+    
+    }
+}
+
+@media screen and (max-width: 760px){
+
+    .texto-cuadrados{
+        font-size: 35px !important;
+    }
+
+    .titulo-cuadrados{
+        font-size: 35px !important;
+    
+    }
+
+    .fixRow{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .imgFix{
+        max-width: 400px !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .div-individual-productos {
@@ -100,6 +139,15 @@ a {
     }
     .producto-doble{
         width: 100% !important;
+    }
+
+    .texto-cuadrados{
+        font-size: 30px !important;
+    }
+
+    .titulo-cuadrados{
+        font-size: 30px !important;
+    
     }
 }
 
